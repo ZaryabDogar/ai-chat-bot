@@ -1,4 +1,3 @@
-```markdown
 # Conversational AI Builder
 
 <div align="center">
@@ -50,4 +49,3 @@ MIT © 2024 **[Zaryab Dogar](https://github.com/zaryabdogar)**
 <div align="center">
   <img src="https://img.shields.io/github/license/zaryabdogar/ai-builder?style=for-the-badge" alt="License">
 </div>
-```
