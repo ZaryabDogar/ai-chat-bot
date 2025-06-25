@@ -42,8 +42,6 @@ An intelligent, full-stack Conversational AI tool that allows users to interact 
 3. 🔁 Text sent to Aigurulab → Voice response generated
 4. 🗣️ Voice response sent back and played in the browser
 
----
-
 ## 🚀 Getting Started (Optional)
 
 Want to run this locally?
@@ -59,11 +57,6 @@ cd backend
 npm install
 node index.js
 ```
-````
-
-> ⚠️ Replace API keys in `.env` or config file before running.
-
----
 
 ## 👨‍💻 Author
 
@@ -76,3 +69,4 @@ node index.js
 
 MIT License © 2024
 [![License](https://img.shields.io/github/license/zaryabdogar/ai-builder?style=for-the-badge)](LICENSE)
+````
