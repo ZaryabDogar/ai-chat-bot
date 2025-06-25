@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-deepseek-primary text-deepseek-text;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-deepseek-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-deepseek-accent rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-green-400;
+}
