@@ -17,7 +17,7 @@ function App() {
 		try {
 			// Get text response from OpenAI
 			const textResponse = await axios.post(
-				'http://localhost:5000/api/generate',
+				'https://ai-chat-bot-nine-orpin.vercel.app/api/generate',
 				{ prompt }
 			);
 			setResponse(textResponse.data.text);
@@ -25,7 +25,7 @@ function App() {
 
 			// Convert text to speech
 			const audioResponse = await axios.post(
-				'http://localhost:5000/api/text-to-speech',
+				'https://ai-chat-bot-nine-orpin.vercel.app/api/text-to-speech',
 				{ text: textResponse.data.text },
 				{ responseType: 'blob' }
 			);
