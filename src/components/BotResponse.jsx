@@ -11,9 +11,9 @@ const BotResponse = ({ response, isLoading }) => {
 					<div className="w-2 h-2 rounded-full bg-deepseek-accent animate-bounce delay-200"></div>
 				</div>
 			) : (
-				<p className="whitespace-pre-wrap">
+				<div className="whitespace-pre-wrap max-h-60 overflow-y-auto pr-2">
 					{response || 'Your AI response will appear here...'}
-				</p>
+				</div>
 			)}
 		</div>
 	);
